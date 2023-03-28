@@ -39,8 +39,10 @@
          }
       },
       "keywords":[
-        "GPIO",
-		"UART"
+        "Motor Control",
+		 "FOC",
+		 "ADC",
+		 "PWM"
       ]
    }
 }
