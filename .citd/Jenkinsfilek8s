@@ -108,6 +108,23 @@ pipeline {
                 }
             }
         } 
+		// Creating tag in Bitbucket repo
+        stage('Bitbucket Tag Creation') {
+            when {
+                anyOf {
+                    allOf {
+                        not { changeRequest() }
+                        anyOf {branch 'master';}
+                    }
+                }
+            }
+            
+            steps {
+               script {
+                    bitbucketTagCreation()
+                }
+            }
+        }
         
         stage('Doxygen files generation') {
             when {
