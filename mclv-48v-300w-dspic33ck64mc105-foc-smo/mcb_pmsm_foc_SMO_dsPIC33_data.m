@@ -1,7 +1,7 @@
 %% ************************************************************************
-% Model         :   Field Oriented Control of PMSM Using Optical Encoder
-% Description   :   Set Parameters for FOC of PMSM Using Optical Encoder
-% File name     :   mcb_pmsm_foc_qep_dsPIC33_data.m
+% Model         :   Field Oriented Control of PMSM Using SMO
+% Description   :   Set Parameters for FOC of PMSM Using SMO
+% File name     :   mcb_pmsm_foc_SMO_dsPIC33_data.m
 % Copyright 2023 Microchip Technology Inc.
 
 %% Simulation Parameters

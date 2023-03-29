@@ -8,7 +8,7 @@ This document describes the setup requirements for running the Sensorless FOC al
 
 ## 2.	SUGGESTED DEMONSTRATION REQUIREMENTS
 ### 2.1 MATLAB Model Required for the Demonstration
--  MATLAB model can be cloned or downloaded as zip file from the Github repository ([link](https://github.com/microchip-pic-avr-solutions/matlab-mclv-48v-300w-dspic33ck256mc105-foc-smo)).
+-  MATLAB model can be cloned or downloaded as zip file from the Github repository ([link](https://github.com/microchip-pic-avr-solutions/matlab-mclv-48v-300w-dspic33ck64mc105-foc-smo)).
 
 ### 2.2	Software Tools Used for Testing the MATLAB/Simulink Model
 1.	MPLAB X IDE and IPE (v6.00)
@@ -47,7 +47,7 @@ This document describes the setup requirements for running the Sensorless FOC al
 2. Insert the **dsPIC33CK64MC105 Motor Control DIM** into the DIM Interface **connector J8** on the MCLV-48V-300W Inverter Board. Make sure the DIM is placed correctly and oriented before going ahead.
 
      <p align="left" >
-     <img  src="images/dimconnected.PNG"></p>
+     <img  src="images/dimconnected.png"></p>
 
 4. Plug the 24V power supply to **connector J1** on the MCLV-48V-300W Inverter Board. Alternatively, the Inverter Board can also be powered through connector J3.
       <p align="left">
